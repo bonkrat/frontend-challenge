@@ -4,7 +4,10 @@ export const root = classnames("sticky", "top-0", "flex", "flex-col", "z-10");
 
 export const header = classnames(
   "flex",
-  "px-16",
+  "px-4",
+  "sm:px-2",
+  "md:px-8",
+  "lg:px-16",
   "border",
   "border-t-0",
   "border-l-0",

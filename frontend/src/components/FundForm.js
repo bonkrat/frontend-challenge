@@ -23,19 +23,23 @@ export const FundForm = ({
   setAmount
 }) => {
   return (
-    <div className={styles.formStyles}>
-      {contributionOptions.map(amount => (
-        <div
-          id={`${amount}-button`}
-          key={amount}
-          className={styles.contributionAmountStyles(amount === selectedAmount)}
-          onClick={() => {
-            setAmount(amount);
-          }}
-        >
-          {amount}
-        </div>
-      ))}
+    <div className={styles.form}>
+      <div className={styles.amounts}>
+        {contributionOptions.map(amount => (
+          <div
+            id={`${amount}-button`}
+            key={amount}
+            className={styles.contributionAmountStyles(
+              amount === selectedAmount
+            )}
+            onClick={() => {
+              setAmount(amount);
+            }}
+          >
+            {amount}
+          </div>
+        ))}
+      </div>
       <FundButton
         onClick={() =>
           fundCampaign({

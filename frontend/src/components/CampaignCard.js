@@ -66,9 +66,9 @@ const CampaignCard = ({
       </div>
       <Backers backers={backers} />
       <div className={styles.fund}>
-        <FundedBar className="w-3/4" goal={goal} funds={funds} />
-        <LinkToProduct id={id}>
-          <FundButton className="w-1/4" />
+        <FundedBar className={styles.fundBar} goal={goal} funds={funds} />
+        <LinkToProduct id={id} className={styles.fundButton}>
+          <FundButton />
         </LinkToProduct>
       </div>
     </div>

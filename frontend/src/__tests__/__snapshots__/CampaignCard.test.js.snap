@@ -2,7 +2,7 @@
 
 exports[`CampaignCard renders correct styles when the card is a hero card 1`] = `
 <div
-  className="flex flex-grow px-2 mb-4 flex-2"
+  className="flex flex-grow flex-col sm:flex-col md:flex-row px-2 mb-4 flex-2"
 >
   <LinkToProduct
     id="fooid"
@@ -15,7 +15,7 @@ exports[`CampaignCard renders correct styles when the card is a hero card 1`] = 
     }
   >
     <div
-      className="h-auto flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden lg:w-64 md:w-56 w-48"
+      className="bg-cover rounded-t lg:rounded-t-none lg:rounded-l overflow-hidden h-32 sm:h-64 md:h-auto lg:w-64 md:w-56 md:w-48 sm:w-0"
       title="name"
     />
   </LinkToProduct>
@@ -62,18 +62,18 @@ exports[`CampaignCard renders correct styles when the card is a hero card 1`] = 
       size={6}
     />
     <div
-      className="flex justify-between"
+      className="flex justify-start md:justify-between flex-wrap sm:flex-wrap md:flex-no-wrap"
     >
       <FundedBar
-        className="w-3/4"
+        className="w-full sm:w-full md:w-3/4 md:mb-0 sm:mb-16 mb-16"
         funds={25}
         goal={100}
       />
       <LinkToProduct
+        className="w-full sm:w-full md:w-1/4 md:my-0 sm:my-16 md:my-0 sm:mx-0"
         id="fooid"
       >
         <FundButton
-          className="w-1/4"
           loading={false}
           onClick={[Function]}
         />
@@ -85,7 +85,7 @@ exports[`CampaignCard renders correct styles when the card is a hero card 1`] = 
 
 exports[`CampaignCard renders correctly 1`] = `
 <div
-  className="flex flex-grow px-2 mb-4 flex-2"
+  className="flex flex-grow flex-col sm:flex-col md:flex-row px-2 mb-4 flex-2"
 >
   <LinkToProduct
     id="fooid"
@@ -98,7 +98,7 @@ exports[`CampaignCard renders correctly 1`] = `
     }
   >
     <div
-      className="h-auto flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden w-48"
+      className="bg-cover rounded-t lg:rounded-t-none lg:rounded-l overflow-hidden h-32 sm:h-64 md:h-auto sm:w-0 md:w-48"
       title="name"
     />
   </LinkToProduct>
@@ -145,18 +145,18 @@ exports[`CampaignCard renders correctly 1`] = `
       size={6}
     />
     <div
-      className="flex justify-between"
+      className="flex justify-start md:justify-between flex-wrap sm:flex-wrap md:flex-no-wrap"
     >
       <FundedBar
-        className="w-3/4"
+        className="w-full sm:w-full md:w-3/4 md:mb-0 sm:mb-16 mb-16"
         funds={25}
         goal={100}
       />
       <LinkToProduct
+        className="w-full sm:w-full md:w-1/4 md:my-0 sm:my-16 md:my-0 sm:mx-0"
         id="fooid"
       >
         <FundButton
-          className="w-1/4"
           loading={false}
           onClick={[Function]}
         />

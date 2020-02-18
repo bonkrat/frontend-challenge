@@ -17,7 +17,6 @@ export const UserInfo = ({ loading, name = "", avatar, balance }) => (
       data-tip={name}
       className={styles.avatar(loading)}
       style={{
-        // Ideally this would not be hardcoded to localhost!
         backgroundImage: `url("http://localhost:4000/avatars/${avatar}")`,
         backgroundPosition: "center",
         backgroundSize: "cover"

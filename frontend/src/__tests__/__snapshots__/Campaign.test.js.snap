@@ -20,13 +20,18 @@ exports[`Campaign renders correctly 1`] = `
   <div
     className="flex flex-auto flex-wrap justify-center h-auto"
   >
-    <img
+    <div
       alt="footitle"
-      className="h-auto lg:flex-1 md:flex-none sm: flex-none bg-cover rounded-br-lg text-center overflow-hidden"
-      src="http://localhost:4000/images/fooimage"
+      className="h-64 sm:h-64 md:h-64 lg:h-auto w-full sm:w-full md:w-full lg:w-1/2 bg-cover rounded-br-lg text-center overflow-hidden"
+      style={
+        Object {
+          "backgroundImage": "url(http://localhost:4000/images/fooimage)",
+          "backgroundPosition": "center",
+        }
+      }
     />
     <div
-      className="h-auto flex flex-col justify-between md:flex-1 py-4 px-8"
+      className="h-auto flex flex-col justify-between md:w-full lg:w-1/2 py-4 px-8"
     >
       <FundedBar
         className="w-full text-2xl"
@@ -34,7 +39,7 @@ exports[`Campaign renders correctly 1`] = `
         goal={100}
       />
       <div
-        className="text-lg text-gray-00 flex justify-between"
+        className="text-lg text-gray-700 flex justify-between"
       >
         <span
           className="text-purple-900"

@@ -2,55 +2,59 @@
 
 exports[`FundForm renders correctly 1`] = `
 <div
-  className="flex flex-auto lg:justify-start lg:px-0 md:pr-48 sm:justify-between items-end"
+  className="flex w-auto flex-col sm:flex-col md:flex-row lg:justify-start lg:px-0 md:pr-48 justify-center sm:justify-between items-center md:items-start md:justify-start"
 >
   <div
-    className="bg-gray-200 rounded mx-1 md:px-4 px-4 py-2 cursor-pointer"
-    id="1-button"
-    key="1"
-    onClick={[Function]}
+    className="flex flex-row mb-8 sm:mb-4"
   >
-    1
-  </div>
-  <div
-    className="bg-gray-200 rounded mx-1 md:px-4 px-4 py-2 cursor-pointer bg-purple-800 text-white"
-    id="5-button"
-    key="5"
-    onClick={[Function]}
-  >
-    5
-  </div>
-  <div
-    className="bg-gray-200 rounded mx-1 md:px-4 px-4 py-2 cursor-pointer"
-    id="10-button"
-    key="10"
-    onClick={[Function]}
-  >
-    10
-  </div>
-  <div
-    className="bg-gray-200 rounded mx-1 md:px-4 px-4 py-2 cursor-pointer"
-    id="25-button"
-    key="25"
-    onClick={[Function]}
-  >
-    25
-  </div>
-  <div
-    className="bg-gray-200 rounded mx-1 md:px-4 px-4 py-2 cursor-pointer"
-    id="50-button"
-    key="50"
-    onClick={[Function]}
-  >
-    50
-  </div>
-  <div
-    className="bg-gray-200 rounded mx-1 md:px-4 px-4 py-2 cursor-pointer"
-    id="100-button"
-    key="100"
-    onClick={[Function]}
-  >
-    100
+    <div
+      className="bg-gray-200 rounded mr-2 sm:mr-4 md:mr-4 px-4 md:px-4 py-2 cursor-pointer"
+      id="1-button"
+      key="1"
+      onClick={[Function]}
+    >
+      1
+    </div>
+    <div
+      className="bg-gray-200 rounded mr-2 sm:mr-4 md:mr-4 px-4 md:px-4 py-2 cursor-pointer bg-purple-800 text-white"
+      id="5-button"
+      key="5"
+      onClick={[Function]}
+    >
+      5
+    </div>
+    <div
+      className="bg-gray-200 rounded mr-2 sm:mr-4 md:mr-4 px-4 md:px-4 py-2 cursor-pointer"
+      id="10-button"
+      key="10"
+      onClick={[Function]}
+    >
+      10
+    </div>
+    <div
+      className="bg-gray-200 rounded mr-2 sm:mr-4 md:mr-4 px-4 md:px-4 py-2 cursor-pointer"
+      id="25-button"
+      key="25"
+      onClick={[Function]}
+    >
+      25
+    </div>
+    <div
+      className="bg-gray-200 rounded mr-2 sm:mr-4 md:mr-4 px-4 md:px-4 py-2 cursor-pointer"
+      id="50-button"
+      key="50"
+      onClick={[Function]}
+    >
+      50
+    </div>
+    <div
+      className="bg-gray-200 rounded mr-2 sm:mr-4 md:mr-4 px-4 md:px-4 py-2 cursor-pointer"
+      id="100-button"
+      key="100"
+      onClick={[Function]}
+    >
+      100
+    </div>
   </div>
   <FundButton
     loading={false}
@@ -61,55 +65,59 @@ exports[`FundForm renders correctly 1`] = `
 
 exports[`FundForm renders loading styles correctly 1`] = `
 <div
-  className="flex flex-auto lg:justify-start lg:px-0 md:pr-48 sm:justify-between items-end"
+  className="flex w-auto flex-col sm:flex-col md:flex-row lg:justify-start lg:px-0 md:pr-48 justify-center sm:justify-between items-center md:items-start md:justify-start"
 >
   <div
-    className="bg-gray-200 rounded mx-1 md:px-4 px-4 py-2 cursor-pointer"
-    id="1-button"
-    key="1"
-    onClick={[Function]}
+    className="flex flex-row mb-8 sm:mb-4"
   >
-    1
-  </div>
-  <div
-    className="bg-gray-200 rounded mx-1 md:px-4 px-4 py-2 cursor-pointer bg-purple-800 text-white"
-    id="5-button"
-    key="5"
-    onClick={[Function]}
-  >
-    5
-  </div>
-  <div
-    className="bg-gray-200 rounded mx-1 md:px-4 px-4 py-2 cursor-pointer"
-    id="10-button"
-    key="10"
-    onClick={[Function]}
-  >
-    10
-  </div>
-  <div
-    className="bg-gray-200 rounded mx-1 md:px-4 px-4 py-2 cursor-pointer"
-    id="25-button"
-    key="25"
-    onClick={[Function]}
-  >
-    25
-  </div>
-  <div
-    className="bg-gray-200 rounded mx-1 md:px-4 px-4 py-2 cursor-pointer"
-    id="50-button"
-    key="50"
-    onClick={[Function]}
-  >
-    50
-  </div>
-  <div
-    className="bg-gray-200 rounded mx-1 md:px-4 px-4 py-2 cursor-pointer"
-    id="100-button"
-    key="100"
-    onClick={[Function]}
-  >
-    100
+    <div
+      className="bg-gray-200 rounded mr-2 sm:mr-4 md:mr-4 px-4 md:px-4 py-2 cursor-pointer"
+      id="1-button"
+      key="1"
+      onClick={[Function]}
+    >
+      1
+    </div>
+    <div
+      className="bg-gray-200 rounded mr-2 sm:mr-4 md:mr-4 px-4 md:px-4 py-2 cursor-pointer bg-purple-800 text-white"
+      id="5-button"
+      key="5"
+      onClick={[Function]}
+    >
+      5
+    </div>
+    <div
+      className="bg-gray-200 rounded mr-2 sm:mr-4 md:mr-4 px-4 md:px-4 py-2 cursor-pointer"
+      id="10-button"
+      key="10"
+      onClick={[Function]}
+    >
+      10
+    </div>
+    <div
+      className="bg-gray-200 rounded mr-2 sm:mr-4 md:mr-4 px-4 md:px-4 py-2 cursor-pointer"
+      id="25-button"
+      key="25"
+      onClick={[Function]}
+    >
+      25
+    </div>
+    <div
+      className="bg-gray-200 rounded mr-2 sm:mr-4 md:mr-4 px-4 md:px-4 py-2 cursor-pointer"
+      id="50-button"
+      key="50"
+      onClick={[Function]}
+    >
+      50
+    </div>
+    <div
+      className="bg-gray-200 rounded mr-2 sm:mr-4 md:mr-4 px-4 md:px-4 py-2 cursor-pointer"
+      id="100-button"
+      key="100"
+      onClick={[Function]}
+    >
+      100
+    </div>
   </div>
   <FundButton
     loading={true}

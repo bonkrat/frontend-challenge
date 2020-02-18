@@ -27,10 +27,13 @@ export const Campaign = ({
       <div className={styles.campaignCreator}>Created by {creator.name}</div>
     </div>
     <div className={styles.campaignBody}>
-      <img
+      <div
         alt={title}
         className={styles.image}
-        src={`http://localhost:4000/images/${image}`}
+        style={{
+          backgroundPosition: "center",
+          backgroundImage: `url(http://localhost:4000/images/${image})`
+        }}
       />
       <div className={styles.campaignDetails}>
         <FundedBar className={styles.fundBar} funds={funds} goal={goal} />

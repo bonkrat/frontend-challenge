@@ -1,27 +1,40 @@
 import { classnames } from "tailwindcss-classnames";
 
 export default {
-  card: (size, hero) =>
-    classnames("flex", "flex-grow", "px-2", "mb-4", [...size]),
+  card: size =>
+    classnames(
+      "flex",
+      "flex-grow",
+      "flex-col",
+      "sm:flex-col",
+      "md:flex-row",
+      "px-2",
+      "mb-4",
+      [...size]
+    ),
 
   image: (hero = false) =>
     classnames(
-      "h-auto",
-      "flex-none",
       "bg-cover",
       "rounded-t",
       "lg:rounded-t-none",
       "lg:rounded-l",
-      "text-center",
       "overflow-hidden",
+      "h-32",
+      "sm:h-64",
+      "md:h-auto",
       /* eslint-disable-next-line */
-      { ["w-48"]: !hero },
+      { ["sm:w-0"]: !hero },
+      /* eslint-disable-next-line */
+      { ["md:w-48"]: !hero },
       /* eslint-disable-next-line */
       { ["lg:w-64"]: hero },
       /* eslint-disable-next-line */
       { ["md:w-56"]: hero },
       /* eslint-disable-next-line */
-      { ["w-48"]: hero }
+      { ["md:w-48"]: hero },
+      /* eslint-disable-next-line */
+      { ["sm:w-0"]: hero }
     ),
 
   cardContents: (hero = false) =>
@@ -75,5 +88,31 @@ export default {
       { ["md:text-base"]: hero }
     ),
 
-  fund: classnames("flex", "justify-between")
+  fund: classnames(
+    "flex",
+    "justify-start",
+    "md:justify-between",
+    "flex-wrap",
+    "sm:flex-wrap",
+    "md:flex-no-wrap"
+  ),
+
+  fundBar: classnames(
+    "w-full",
+    "sm:w-full",
+    "md:w-3/4",
+    "md:mb-0",
+    "sm:mb-16",
+    "mb-16"
+  ),
+
+  fundButton: classnames(
+    "w-full",
+    "sm:w-full",
+    "md:w-1/4",
+    "md:my-0",
+    "sm:my-16",
+    "md:my-0",
+    "sm:mx-0"
+  )
 };

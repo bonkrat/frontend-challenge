@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="rounded-lg border-2 border-white text-white py-2 px-4 ml-4 cursor-pointer bg-purple-700 hover:bg-purple-900"
+  className="rounded-lg border-2 border-white text-white py-2 px-32 md:px-4 md:ml-4 cursor-pointer bg-purple-700 hover:bg-purple-900"
   onClick={[Function]}
 >
   Fund
@@ -11,7 +11,7 @@ exports[`renders correctly 1`] = `
 
 exports[`renders loading styles 1`] = `
 <div
-  className="rounded-lg border-2 border-white text-white py-2 px-4 ml-4 cursor-not-allowed hover:bg-gray-500 bg-gray-500 opacity-80"
+  className="rounded-lg border-2 border-white text-white py-2 px-32 md:px-4 md:ml-4 cursor-not-allowed hover:bg-gray-500 bg-gray-500 opacity-80"
   onClick={[Function]}
 >
   ...

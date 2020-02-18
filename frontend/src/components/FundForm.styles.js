@@ -1,14 +1,22 @@
 import { classnames } from "tailwindcss-classnames";
 
-export const formStyles = classnames(
+export const form = classnames(
   "flex",
-  "flex-auto",
+  "w-auto",
+  "flex-col",
+  "sm:flex-col",
+  "md:flex-row",
   "lg:justify-start",
   "lg:px-0",
   "md:pr-48",
+  "justify-center",
   "sm:justify-between",
-  "items-end"
+  "items-center",
+  "md:items-start",
+  "md:justify-start"
 );
+
+export const amounts = classnames("flex", "flex-row", "mb-8", "sm:mb-4");
 
 export const selectedAmountStyle = classnames("bg-purple-800", "text-white");
 
@@ -16,9 +24,11 @@ export const contributionAmountStyles = selected =>
   classnames(
     "bg-gray-200",
     "rounded",
-    "mx-1",
-    "md:px-4",
+    "mr-2",
+    "sm:mr-4",
+    "md:mr-4",
     "px-4",
+    "md:px-4",
     "py-2",
     "cursor-pointer",
     { [`${selectedAmountStyle}`]: selected }

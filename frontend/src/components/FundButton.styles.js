@@ -7,8 +7,9 @@ export const button = loading =>
     "border-white",
     "text-white",
     "py-2",
-    "px-4",
-    "ml-4",
+    "px-32",
+    "md:px-4",
+    "md:ml-4",
     /* eslint-disable-next-line */
     { ["cursor-pointer"]: !loading },
     /* eslint-disable-next-line */

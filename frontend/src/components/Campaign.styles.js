@@ -5,7 +5,6 @@ export const campaignHeader = classnames(
   "flex-col",
   "bg-purple-100",
   "w-full",
-  //   "lg:px-16",
   "p-8",
   "flex",
   "justify-center",
@@ -29,10 +28,14 @@ export const campaignBody = classnames(
 );
 
 export const image = classnames(
-  "h-auto",
-  "lg:flex-1",
-  "md:flex-none",
-  "sm: flex-none",
+  "h-64",
+  "sm:h-64",
+  "md:h-64",
+  "lg:h-auto",
+  "w-full",
+  "sm:w-full",
+  "md:w-full",
+  "lg:w-1/2",
   "bg-cover",
   "rounded-br-lg",
   "text-center",
@@ -44,14 +47,15 @@ export const campaignDetails = classnames(
   "flex",
   "flex-col",
   "justify-between",
-  "md:flex-1",
+  "md:w-full",
+  "lg:w-1/2",
   "py-4",
   "px-8"
 );
 
 export const goal = classnames(
   "text-lg",
-  "text-gray-00",
+  "text-gray-700",
   "flex",
   "justify-between"
 );
