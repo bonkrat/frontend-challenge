@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Campaign renders correctly 1`] = `
+<Fragment>
+  <div
+    className="flex flex-col bg-purple-100 w-full p-8 flex justify-center items-center"
+  >
+    <div
+      className="text-2xl text-white text-indigo-800"
+    >
+      footitle
+    </div>
+    <div
+      className="text-md text-purple-400"
+    >
+      Created by 
+      foocreator
+    </div>
+  </div>
+  <div
+    className="flex flex-auto flex-wrap justify-center h-auto"
+  >
+    <img
+      alt="footitle"
+      className="h-auto lg:flex-1 md:flex-none sm: flex-none bg-cover rounded-br-lg text-center overflow-hidden"
+      src="http://localhost:4000/images/fooimage"
+    />
+    <div
+      className="h-auto flex flex-col justify-between md:flex-1 py-4 px-8"
+    >
+      <FundedBar
+        className="w-full text-2xl"
+        funds={25}
+        goal={100}
+      />
+      <div
+        className="text-lg text-gray-00 flex justify-between"
+      >
+        <span
+          className="text-purple-900"
+        >
+          $25
+        </span>
+        <span>
+          $
+          100
+        </span>
+      </div>
+      <p
+        className="my-10 lg:mb-16"
+      >
+        foodescription
+      </p>
+      <div
+        className="md: mb-16 my-4"
+      >
+        <div
+          className="mb-2 text-gray-700"
+        >
+          Backed by:
+        </div>
+        <Backers
+          backers={
+            Array [
+              Object {
+                "avatar": "fooavatar",
+                "id": "foo",
+                "name": "fooname",
+              },
+              Object {
+                "avatar": "baravatar",
+                "id": "bar",
+                "name": "barname",
+              },
+            ]
+          }
+          size={12}
+        />
+      </div>
+      <FundFormMutation
+        campaignId="foo"
+      />
+    </div>
+  </div>
+</Fragment>
+`;

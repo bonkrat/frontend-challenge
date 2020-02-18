@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CampaignCard renders correct styles when the card is a hero card 1`] = `
+<div
+  className="flex flex-grow px-2 mb-4 flex-2"
+>
+  <LinkToProduct
+    id="fooid"
+    style={
+      Object {
+        "backgroundImage": "url(\\"http://localhost:4000/images/fooimage\\")",
+        "backgroundPosition": "center",
+        "backgroundSize": "cover",
+      }
+    }
+  >
+    <div
+      className="h-auto flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden lg:w-64 md:w-56 w-48"
+      title="name"
+    />
+  </LinkToProduct>
+  <div
+    className="border-b border-l lg-border-l-0 bg-white rounded-b lg:rounded-b-none lg: rouned-r flex flex-col justify-between leading-normal p-4 w-full md:p-8"
+  >
+    <div
+      className="mb-8"
+    >
+      <LinkToProduct
+        id="fooid"
+      >
+        <div
+          className="text-gray-900 font-bold text-lx hover:text-purple-900 cursor-pointer"
+        />
+      </LinkToProduct>
+      <div
+        className="text-sm mb-4 text-gray-500 text-base"
+      >
+        Created by 
+        fooname
+      </div>
+      <p
+        className="text-gray-700 text-sm pb-12 md:text-base"
+      >
+        foodescription
+      </p>
+    </div>
+    <Backers
+      backers={
+        Array [
+          Object {
+            "avatar": "fooavatar",
+            "id": "foo",
+            "name": "fooname",
+          },
+          Object {
+            "avatar": "baravatar",
+            "id": "bar",
+            "name": "barname",
+          },
+        ]
+      }
+      size={6}
+    />
+    <div
+      className="flex justify-between"
+    >
+      <FundedBar
+        className="w-3/4"
+        funds={25}
+        goal={100}
+      />
+      <LinkToProduct
+        id="fooid"
+      >
+        <FundButton
+          className="w-1/4"
+          loading={false}
+          onClick={[Function]}
+        />
+      </LinkToProduct>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CampaignCard renders correctly 1`] = `
+<div
+  className="flex flex-grow px-2 mb-4 flex-2"
+>
+  <LinkToProduct
+    id="fooid"
+    style={
+      Object {
+        "backgroundImage": "url(\\"http://localhost:4000/images/fooimage\\")",
+        "backgroundPosition": "center",
+        "backgroundSize": "cover",
+      }
+    }
+  >
+    <div
+      className="h-auto flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden w-48"
+      title="name"
+    />
+  </LinkToProduct>
+  <div
+    className="border-b border-l lg-border-l-0 bg-white rounded-b lg:rounded-b-none lg: rouned-r flex flex-col justify-between leading-normal p-4 w-full border-t"
+  >
+    <div
+      className="mb-8"
+    >
+      <LinkToProduct
+        id="fooid"
+      >
+        <div
+          className="text-gray-900 font-bold text-lx hover:text-purple-900 cursor-pointer"
+        />
+      </LinkToProduct>
+      <div
+        className="text-sm mb-4 text-gray-500"
+      >
+        Created by 
+        fooname
+      </div>
+      <p
+        className="text-gray-700 text-sm"
+      >
+        foodescription
+      </p>
+    </div>
+    <Backers
+      backers={
+        Array [
+          Object {
+            "avatar": "fooavatar",
+            "id": "foo",
+            "name": "fooname",
+          },
+          Object {
+            "avatar": "baravatar",
+            "id": "bar",
+            "name": "barname",
+          },
+        ]
+      }
+      size={6}
+    />
+    <div
+      className="flex justify-between"
+    >
+      <FundedBar
+        className="w-3/4"
+        funds={25}
+        goal={100}
+      />
+      <LinkToProduct
+        id="fooid"
+      >
+        <FundButton
+          className="w-1/4"
+          loading={false}
+          onClick={[Function]}
+        />
+      </LinkToProduct>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LinkToProduct renders correctly 1`] = `
+<Link
+  style={
+    Object {
+      "color": "green",
+    }
+  }
+  to="/foo"
+>
+  Foo Child
+</Link>
+`;

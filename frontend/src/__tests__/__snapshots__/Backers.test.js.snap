@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="flex text-base text-gray-500"
+>
+  <ReactTooltip
+    clickable={false}
+    effect="solid"
+    insecure={true}
+    resizeHide={true}
+    wrapper="div"
+  />
+  <div
+    className="rounded-full h-6 w-6 flex items-center justify-center text-white"
+    data-tip="fooname"
+    style={
+      Object {
+        "backgroundImage": "url(\\"http://localhost:4000/avatars/fooavatar\\")",
+        "backgroundPosition": "center",
+        "backgroundSize": "cover",
+      }
+    }
+  />
+  <ReactTooltip
+    clickable={false}
+    effect="solid"
+    insecure={true}
+    resizeHide={true}
+    wrapper="div"
+  />
+  <div
+    className="rounded-full h-6 w-6 flex items-center justify-center text-white"
+    data-tip="barname"
+    style={
+      Object {
+        "backgroundImage": "url(\\"http://localhost:4000/avatars/baravatar\\")",
+        "backgroundPosition": "center",
+        "backgroundSize": "cover",
+      }
+    }
+  />
+</div>
+`;

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CampaignsList renders campaigns correctly 1`] = `
+<Fragment>
+  <div
+    className="flex flex-wrap md:-mx-2 mb-4 justify-center md:text-2xl"
+  >
+    <CampaignCard
+      hero={true}
+      id="foo"
+      size={
+        Array [
+          "w-full",
+        ]
+      }
+    />
+  </div>
+  <div
+    className="flex flex-wrap md:-mx-2 mb-4 justify-center"
+  >
+    <CampaignCard
+      id="bar"
+      key="bar"
+      size={
+        Array [
+          "2xl:w-1/6",
+          "lg:w-1/2",
+        ]
+      }
+    />
+    <CampaignCard
+      id="baz"
+      key="baz"
+      size={
+        Array [
+          "2xl:w-1/6",
+          "lg:w-1/2",
+        ]
+      }
+    />
+  </div>
+  <div
+    className="flex flex-wrap md:-mx-2 mb-4 justify-center md:text-2xl"
+  >
+    <CampaignCard
+      hero={true}
+      id="qix"
+      size={
+        Array [
+          "w-full",
+        ]
+      }
+    />
+  </div>
+  <div
+    className="flex flex-wrap md:-mx-2 mb-4 justify-center"
+  />
+</Fragment>
+`;

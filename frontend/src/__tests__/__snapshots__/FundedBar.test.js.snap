@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="foo"
+>
+  <span
+    className="text-purple-900"
+  >
+    25
+    % funded
+  </span>
+  <t
+    buffer={1}
+    bufferingDots={false}
+    className="border-r rounded"
+    closed={false}
+    indeterminate={false}
+    progress={0.25}
+    reversed={false}
+    tag="div"
+  />
+</div>
+`;

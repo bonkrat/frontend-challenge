@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sticky top-0 flex flex-col z-10"
+>
+  <div
+    className="flex px-16 border border-t-0 border-l-0 border-r-0 w-full justify-between bg-white"
+  >
+    <Link
+      to="/"
+    >
+      <div
+        className="font-bold h-16 flex justify-center items-center"
+      >
+        Not Kickstarter
+      </div>
+    </Link>
+    <UserInfoQuery />
+  </div>
+  <t
+    buffer={0}
+    bufferingDots={true}
+    className="-mt-1 opacity-0"
+    closed={false}
+    indeterminate={true}
+    progress={0}
+    reversed={false}
+    tag="div"
+  />
+</div>
+`;
+
+exports[`renders loading styles correctly 1`] = `
+<div
+  className="sticky top-0 flex flex-col z-10"
+>
+  <div
+    className="flex px-16 border border-t-0 border-l-0 border-r-0 w-full justify-between bg-white"
+  >
+    <Link
+      to="/"
+    >
+      <div
+        className="font-bold h-16 flex justify-center items-center"
+      >
+        Not Kickstarter
+      </div>
+    </Link>
+    <UserInfoQuery />
+  </div>
+  <t
+    buffer={0}
+    bufferingDots={true}
+    className="-mt-1 opacity-100"
+    closed={false}
+    indeterminate={true}
+    progress={0}
+    reversed={false}
+    tag="div"
+  />
+</div>
+`;
